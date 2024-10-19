@@ -16,7 +16,7 @@ export default function Contact() {
             </h1>
             <form>
               {['name', 'email', 'your-message'].map((field, index) => (
-                <div className="mb-4" key={index}>
+                <div className="mb-4 " key={index}>
                   <label
                     htmlFor={field}
                     className="block text-md font-medium mb-2 text-teal-900 font-serif"
